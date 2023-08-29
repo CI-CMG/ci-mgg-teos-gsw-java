@@ -30,7 +30,7 @@
     <connection>scm:git:git@github.com:CI-CMG/ci-mgg-teos-gsw-java.git</connection>
     <developerConnection>scm:git:git@github.com:CI-CMG/ci-mgg-teos-gsw-java.git</developerConnection>
     <url>https://github.com/CI-CMG/ci-mgg-teos-gsw-java</url>
-    <tag>HEAD</tag>
+    <tag>3.6</tag>
   </scm>
 
   <distributionManagement>
