@@ -5,7 +5,7 @@
 
   <groupId>io.github.ci-cmg</groupId>
   <artifactId>ci-mgg-teos-gsw-java</artifactId>
-  <version>3.6.6</version>
+  <version>3.6.7-SNAPSHOT</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>JNA wrapper for TEOS-10 GSW v3.06.16-0 http://teos-10.org/</description>
@@ -30,7 +30,7 @@
     <connection>scm:git:git@github.com:CI-CMG/ci-mgg-teos-gsw-java.git</connection>
     <developerConnection>scm:git:git@github.com:CI-CMG/ci-mgg-teos-gsw-java.git</developerConnection>
     <url>https://github.com/CI-CMG/ci-mgg-teos-gsw-java</url>
-    <tag>v3.6.6</tag>
+    <tag>3.6</tag>
   </scm>
 
   <distributionManagement>
