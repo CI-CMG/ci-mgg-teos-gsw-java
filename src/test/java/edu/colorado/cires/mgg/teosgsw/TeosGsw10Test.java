@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class TeosGsw10Test {
+public class TeosGsw10Test {
 
   @Test
   void gsw_add_barrier() {
