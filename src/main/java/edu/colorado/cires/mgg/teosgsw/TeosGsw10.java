@@ -3,7 +3,14 @@ package edu.colorado.cires.mgg.teosgsw;
 import com.sun.jna.Library;
 import com.sun.jna.Native;
 
+/**
+ * JNA interface for the gswteos-10 library
+ */
 public interface TeosGsw10 extends Library {
+
+  /**
+   * The singleton instance to interact with the gswteos-10 library.
+   */
   TeosGsw10 INSTANCE = Native.load("gswteos-10", TeosGsw10.class);
   void   gsw_add_barrier(double[] input_data, double lon, double lat,
       double long_grid, double lat_grid, double dlong_grid,
